@@ -16,3 +16,9 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# 本项目生成物（数据与结果可重建）
+data/*.csv
+data/truth.json
+outputs/
+.pytest_cache/
